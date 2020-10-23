@@ -1,0 +1,56 @@
+<header>
+  <h1>Pokedex</h1>
+</header>
+<div class="container">
+  <div class="pokemon-grid">
+    <app-one-pokemon *ngFor="let pokemon of pokemonArray"
+                     [pokemonData] = "pokemon"
+                     (click) = "openPokemon(pokemon)">
+    </app-one-pokemon>
+    <div class="load-more-button" (click)="loadMore()"><p>Load More</p></div>
+  </div>
+  <div class="selected-pokemon" *ngIf="selectedPokemon">
+    <div class = "selected-pokemon-image">
+      <img src = 'https://pokeres.bastionbot.org/images/pokemon/{{ this.selectedPokemon.id }}.png'>
+    </div>
+    <div class = "selected-pokemon-name">{{ this.selectedPokemon.name + ' #' + this.selectedPokemon.id }}</div>
+    <table>
+      <tr>
+        <td>Type</td>
+        <td>{{ this.selectedPokemon.types[0].type.name}}</td>
+      </tr>
+      <tr>
+        <td>Attack</td>
+        <td>{{ this.getStat('attack') }}</td>
+      </tr>
+      <tr>
+        <td>Defense</td>
+        <td>{{ this.getStat('defense') }}</td>
+      </tr>
+      <tr>
+        <td>HP</td>
+        <td>{{ this.getStat('hp') }}</td>
+      </tr>
+      <tr>
+        <td>SP Attack</td>
+        <td>{{ this.getStat('special-attack') }}</td>
+      </tr>
+      <tr>
+        <td>SP Defence</td>
+        <td>{{ this.getStat('special-defense') }}</td>
+      </tr>
+      <tr>
+        <td>Speed</td>
+        <td>{{ this.getStat('speed') }}</td>
+      </tr>
+      <tr>
+        <td>Weight</td>
+        <td>{{ this.selectedPokemon.weight }}</td>
+      </tr>
+      <tr>
+        <td>Total moves</td>
+        <td>{{ this.selectedPokemon.moves.length }}</td>
+      </tr>
+    </table>
+  </div>
+</div>

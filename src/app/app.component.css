@@ -1,0 +1,299 @@
+@media screen and (max-width: 405px) {
+  header {
+    margin: 0 auto 20px;
+    width: 50vw;
+    height: 60px;
+    border: 3px solid black;
+    display: flex;
+  }
+
+  h1 {
+    font-family: Arial;
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 95vw;
+    min-height: 100vh;
+    display: flex;
+  }
+
+
+  .pokemon-grid {
+    width: 60%;
+    min-height: 100%;
+    margin-right: 30px;
+    position:relative;
+  }
+
+  .load-more-button {
+    position: relative;
+    margin-top: 20px;
+    bottom: 0px;
+    height: 50px;
+    width: 90%;
+    background: dodgerblue;
+    border-radius: 15px;
+    display: flex;
+  }
+
+  .load-more-button:hover {
+    cursor: pointer;
+    color: red;
+  }
+
+  .load-more-button p {
+    margin: auto;
+    font-family: Arial;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .selected-pokemon {
+    margin-right: 5px;
+    position: fixed;
+    right: 0;
+    top: 90px;
+    width: 40%;
+    height: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .selected-pokemon-image {
+    margin: 3% 5%;
+    border: 1px solid rebeccapurple;
+  }
+
+  .selected-pokemon-image img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .selected-pokemon-name {
+    align-self: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 1rem;
+  }
+
+  table, tr, td {
+    border: 1px solid black;
+  }
+
+  table {
+    border-collapse: collapse;
+    font-family: Arial;
+    text-align: center;
+  }
+
+  table tr {
+    height: 30px;
+    text-transform: capitalize;
+  }
+}
+
+@media screen and (min-width: 405px) and (max-width: 1000px) {
+  header {
+    margin: 0 auto 20px;
+    width: 50vw;
+    height: 60px;
+    border: 3px solid black;
+    display: flex;
+  }
+
+  h1 {
+    font-family: Arial;
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 95vw;
+    min-height: 100vh;
+    display: flex;
+  }
+
+
+  .pokemon-grid {
+    width: 60%;
+    min-height: 100%;
+    margin-right: 30px;
+    position:relative;
+  }
+
+  .load-more-button {
+    position: relative;
+    margin-top: 20px;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background: dodgerblue;
+    border-radius: 15px;
+    display: flex;
+  }
+
+  .load-more-button:hover {
+    cursor: pointer;
+    color: red;
+  }
+
+  .load-more-button p {
+    margin: auto;
+    font-family: Arial;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .selected-pokemon {
+    position: fixed;
+    right: 5%;
+    top: 101px;
+    width: 200px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .selected-pokemon-image {
+    margin: 3% 5%;
+    border: 1px solid rebeccapurple;
+  }
+
+  .selected-pokemon-image img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .selected-pokemon-name {
+    align-self: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 1.5rem;
+  }
+
+  table, tr, td {
+    border: 1px solid black;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 10px;
+    font-family: Arial;
+    text-align: center;
+  }
+
+  table tr {
+    height: 30px;
+    text-transform: capitalize;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  header {
+    margin: 0 auto 20px;
+    width: 30vw;
+    height: 60px;
+    border: 3px solid black;
+    display: flex;
+  }
+
+  h1 {
+    font-family: Arial;
+    font-size: 2.3rem;
+    margin: auto;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 60vw;
+    min-height: 150vh;
+    display: flex;
+  }
+
+
+  .pokemon-grid {
+    width: 60%;
+    margin-right: 30px;
+    position:relative;
+  }
+
+  .load-more-button {
+    margin-top: 20px;
+    position: relative;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background: dodgerblue;
+    border-radius: 15px;
+    display: flex;
+  }
+
+  .load-more-button:hover {
+    cursor: pointer;
+    background: royalblue;
+  }
+
+  .load-more-button p {
+    margin: auto;
+    font-family: Arial;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .selected-pokemon {
+    position: fixed;
+    right: 24%;
+    top: 109px;
+    width: 18%;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .selected-pokemon-image {
+    margin: 3% 5%;
+    border: 1px solid rebeccapurple;
+  }
+
+  .selected-pokemon-image img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .selected-pokemon-name {
+    align-self: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 1.5rem;
+  }
+
+  table, tr, td {
+    border: 1px solid black;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 10px;
+    font-family: Arial;
+    text-align: center;
+  }
+
+  table tr {
+    height: 30px;
+    text-transform: capitalize;
+  }
+}

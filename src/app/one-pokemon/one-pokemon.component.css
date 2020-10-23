@@ -1,0 +1,187 @@
+@media screen and (max-width: 405px) {
+  .container {
+    margin: 0;
+    width: 40%;
+    min-width: 130px;
+    height: 240px;
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+  }
+
+  .name {
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial;
+  }
+
+  .image {
+    margin: 5%;
+    border: 1px solid rebeccapurple;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .typeHolder {
+    display: inline-block;
+    margin: 5px 2px 5px;
+    min-width: 55px;
+    min-height: 19px;
+    padding-top: 5px;
+    font-family: Arial;
+    font-size: smaller;
+    text-transform: capitalize;
+    border-radius: 5px;
+  }
+
+
+  /* pokemon holders styling */
+  .grass {
+    border: 1px solid #28B463;
+    background: linear-gradient(to top, #28B463, #58D68D 50%);
+  }
+
+  .poison {
+    border: 1px solid #8E44AD;
+    background: linear-gradient(to top, #8E44AD, #BB8FCE 50%);
+  }
+
+  .fire {
+    border: 1px solid #F08030;
+    background: linear-gradient(to top, #F08030, #F5AC78 50%);
+  }
+
+  .flying {
+    border: 1px solid #A890F0;
+    background: linear-gradient(to top, #A890F0, #C6B7F5 50%);
+  }
+
+  .electric {
+    border: 1px solid #F8D030;
+    background: linear-gradient(to top, #F8D030, #FAE078 50%);
+  }
+
+  .water {
+    border: 1px solid #6890F0;
+    background: linear-gradient(to top, #6890F0, #9DB7F5 50%);
+  }
+
+  .bug {
+    border: 1px solid #A8B820;
+    background: linear-gradient(to top, #A8B820, #C6D16E 50%);
+  }
+
+  .normal {
+    border: 1px solid #A8A878;
+    background: linear-gradient(to top, #A8A878, #C6C6A7 50%);
+  }
+
+  .ground {
+    border: 1px solid #E0C068;
+    background: linear-gradient(to top, #E0C068, #EBD69D 50%);
+  }
+
+  .fairy {
+    border: 1px solid #EE99AC;
+    background: linear-gradient(to top, #EE99AC, #F4BDC9 50%);
+  }
+}
+
+@media screen and (min-width: 405px) {
+  .container {
+    margin: 3% 0% 0% 3%;
+    width: 29%;
+    min-width: 150px;
+    height: 240px;
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+  }
+
+  .name {
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial;
+  }
+
+  .image {
+    margin: 5%;
+    border: 1px solid rebeccapurple;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .typeHolder {
+    display: inline-block;
+    margin: 5px 2px 5px;
+    min-width: 55px;
+    min-height: 19px;
+    padding-top: 5px;
+    font-family: Arial;
+    font-size: smaller;
+    text-transform: capitalize;
+    border-radius: 5px;
+  }
+
+
+  /* pokemon holders styling */
+
+
+  .grass {
+    border: 1px solid #28B463;
+    background: linear-gradient(to top, #28B463, #58D68D 50%);
+  }
+
+  .poison {
+    border: 1px solid #8E44AD;
+    background: linear-gradient(to top, #8E44AD, #BB8FCE 50%);
+  }
+
+  .fire {
+    border: 1px solid #F08030;
+    background: linear-gradient(to top, #F08030, #F5AC78 50%);
+  }
+
+  .flying {
+    border: 1px solid #A890F0;
+    background: linear-gradient(to top, #A890F0, #C6B7F5 50%);
+  }
+
+  .electric {
+    border: 1px solid #F8D030;
+    background: linear-gradient(to top, #F8D030, #FAE078 50%);
+  }
+
+  .water {
+    border: 1px solid #6890F0;
+    background: linear-gradient(to top, #6890F0, #9DB7F5 50%);
+  }
+
+  .bug {
+    border: 1px solid #A8B820;
+    background: linear-gradient(to top, #A8B820, #C6D16E 50%);
+  }
+
+  .normal {
+    border: 1px solid #A8A878;
+    background: linear-gradient(to top, #A8A878, #C6C6A7 50%);
+  }
+
+  .ground {
+    border: 1px solid #E0C068;
+    background: linear-gradient(to top, #E0C068, #EBD69D 50%);
+  }
+
+  .fairy {
+    border: 1px solid #EE99AC;
+    background: linear-gradient(to top, #EE99AC, #F4BDC9 50%);
+  }
+}

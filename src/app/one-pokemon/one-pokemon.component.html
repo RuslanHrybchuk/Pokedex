@@ -1,0 +1,10 @@
+<div class = "container">
+  <div class = "image">
+    <img src = 'https://pokeres.bastionbot.org/images/pokemon/{{ pokemonData.id }}.png'>
+  </div>
+  <div class = "name">{{ pokemonData.name }}</div>
+  <br>
+  <ng-container class = "typeHolder" *ngFor="let type of this.pokemonTypes">
+    <div class = "typeHolder {{ type }} "> {{ type }} </div>
+  </ng-container>
+</div>
